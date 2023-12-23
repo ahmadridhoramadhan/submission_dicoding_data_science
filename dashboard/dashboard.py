@@ -136,7 +136,8 @@ def show_product_categories_sales_in_each_city_visualization():
 
 
 
-st.header('dicoding project analysis E-commerce publik:sparkles:')
+# Remove the line causing the error
+# st.header('dicoding project analysis E-commerce publik:sparkles:')
 st.subheader('performance product categories')
 show_product_sales_visualization()
 
