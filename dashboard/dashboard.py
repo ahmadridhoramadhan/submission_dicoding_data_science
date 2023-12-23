@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import streamlit as st
 sns.set(style='dark')
 
 try:
@@ -136,8 +137,7 @@ def show_product_categories_sales_in_each_city_visualization():
 
 
 
-# Remove the line causing the error
-# st.header('dicoding project analysis E-commerce publik:sparkles:')
+st.header('dicoding project analysis E-commerce publik:sparkles:')
 st.subheader('performance product categories')
 show_product_sales_visualization()
 
